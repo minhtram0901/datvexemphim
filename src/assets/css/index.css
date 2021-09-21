@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Linotte";
+  src: url("../fonts/LinotteRegular.ttf");
+}
+
+.bookingMovie {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 43, 44, 0.637),
+      rgba(20, 9, 1, 0.719)
+    ),
+    url("../img/bg-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: "Linotte";
+  color: white;
+}
+
+.bookingMovie__container {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.header {
+  text-shadow: 4px -3px 0px rgb(2, 30, 100);
+  font-size: 40px;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.seatmap,
+.seatinfo {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 5px;
+}
+
+.screen {
+  border: 2px solid white;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.ghe {
+  background: white;
+  border: 3px solid orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: orange;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 35px;
+  vertical-align: middle;
+}
+
+.gheDuocChon {
+  display: inline-block;
+  border: 3px solid rgb(235, 97, 4);
+  background: orange;
+  color: #000;
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(48, 160, 4);
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.rowNumber {
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-bottom: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.table-scroll {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  display: table;
+}
+.table-wrap {
+  width: 100%;
+  display: block;
+  height: 428px;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+.table-scroll table {
+  width: 100%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll th,
+.table-scroll td {
+  padding: 5px 10px;
+  border: 1px solid rgb(139, 138, 138);
+  background: #fff;
+  vertical-align: top;
+}
+.faux-table table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.faux-table table + table {
+  top: auto;
+  bottom: 0;
+}
+.faux-table table tbody{
+  visibility: hidden;
+  border-color: transparent;
+}
+.faux-table table + table thead {
+  visibility: hidden;
+  border-color: transparent;
+}
+
+.faux-table thead th {
+  background: rgb(102, 99, 99);
+}
+.faux-table {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+.faux-table thead,
+.faux-table thead th {
+  position: relative;
+  z-index: 2;
+}
