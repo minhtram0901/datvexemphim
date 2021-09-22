@@ -54,7 +54,7 @@
 .ghe {
   background: white;
   border: 3px solid orange;
-  width: 40px;
+  width: 45px;
   height: 40px;
   border-radius: 5px;
   color: orange;
@@ -72,7 +72,7 @@
   color: #000;
   cursor: no-drop !important;
   border-radius: 5px;
-  width: 40px;
+  width: 45px;
   height: 40px;
   line-height: 35px;
   text-align: center;
@@ -81,11 +81,11 @@
 
 .gheDangChon {
   background: rgb(109, 238, 109);
-  border: 3px solid rgb(48, 160, 4);
+  border: 4px solid rgb(41, 134, 4);
   color: #000;
   cursor: pointer;
   border-radius: 5px;
-  width: 40px;
+  width: 45px;
   height: 40px;
   line-height: 35px;
   text-align: center;
@@ -104,67 +104,26 @@
   text-align: center;
 }
 
-.table-scroll {
-  position: relative;
-  max-width: 1280px;
-  width: 100%;
-  margin: auto;
-  display: table;
-}
-.table-wrap {
-  width: 100%;
-  display: block;
-  height: 428px;
-  overflow: auto;
-  position: relative;
-  z-index: 1;
-}
-.table-scroll table {
-  width: 100%;
-  margin: auto;
-  border-collapse: separate;
-  border-spacing: 0;
-}
-.table-scroll th,
-.table-scroll td {
-  padding: 5px 10px;
-  border: 1px solid rgb(139, 138, 138);
-  background: #fff;
-  vertical-align: top;
-}
-.faux-table table {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  pointer-events: none;
-}
-.faux-table table + table {
-  top: auto;
-  bottom: 0;
-}
-.faux-table table tbody{
-  visibility: hidden;
-  border-color: transparent;
-}
-.faux-table table + table thead {
-  visibility: hidden;
-  border-color: transparent;
+.table{
+  width: 94% !important;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  border: 1px solid rgb(112, 112, 112);
 }
 
-.faux-table thead th {
-  background: rgb(102, 99, 99);
+.table-dark{
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
-.faux-table {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow-y: scroll;
+
+.table td, .table th{
+  border-color: rgba(255, 255, 255, 0.6) !important;
 }
-.faux-table thead,
-.faux-table thead th {
-  position: relative;
-  z-index: 2;
+
+.btnDelete{
+  padding: 4px 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(221, 39, 39);
+  color: white;
 }

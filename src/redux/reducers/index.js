@@ -1,7 +1,8 @@
 import {combineReducers} from "redux";
+import MovieTicketReducer from "./movieTicketReducer";
 
 const rootReducer = combineReducers({
-	//List reducers khai báo ở đây
+	MovieTicketReducer
 });
 
 export default rootReducer ;
