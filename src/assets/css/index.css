@@ -104,11 +104,22 @@
   text-align: center;
 }
 
+.my-custom-scrollbar {
+  position: relative;
+  width: 94% ;
+  margin: 0 auto;
+  height: 450px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+
 .table{
   width: 94% !important;
-  height: 300px;
-  overflow-y: scroll;
-  margin: 0 auto;
+  height: 450px;
+  /* overflow-y: scroll; */
+  /* margin: 0 auto; */
   border: 1px solid rgb(112, 112, 112);
 }
 
