@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import ReactDOM from "react-dom";
 import "../assets/css/index.css";
 import data from "../assets/data/danhSachGhe.json";
 import SeatRow from "./seatRow";
