@@ -21,7 +21,7 @@ class ListSelectedSeat extends Component {
         <div className="table-wrapper-scroll-y my-custom-scrollbar">
           <table
             id="main-table"
-            className="main-table table table-dark table-sm"
+            className="table table-dark table-sm"
           >
             <thead>
               <tr>

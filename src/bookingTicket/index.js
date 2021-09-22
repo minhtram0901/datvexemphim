@@ -13,16 +13,6 @@ class BookingTicket extends Component {
     });
   };
 
-  componentDidMount() {
-    // const fauxTable = document.getElementById("faux-table");
-    // const mainTable = document.getElementById("main-table");
-    // let clonedElement = mainTable.cloneNode(true);
-    // let clonedElement2 = mainTable.cloneNode(true);
-    // clonedElement.id = "";
-    // clonedElement2.id = "";
-    // fauxTable.appendChild(clonedElement);
-    // fauxTable.appendChild(clonedElement2);
-  }
   render() {
     return (
       <div className="bookingMovie">

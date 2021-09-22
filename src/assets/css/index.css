@@ -106,33 +106,26 @@
 
 .my-custom-scrollbar {
   position: relative;
-  width: 94% ;
+  width: 94%;
   margin: 0 auto;
   height: 450px;
   overflow: auto;
-  }
-  .table-wrapper-scroll-y {
+}
+.table-wrapper-scroll-y {
   display: block;
-  }
-
-.table{
-  width: 94% !important;
-  height: 450px;
-  /* overflow-y: scroll; */
-  /* margin: 0 auto; */
-  border: 1px solid rgb(112, 112, 112);
 }
 
-.table-dark{
+.table-dark {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.table td, .table th{
+.table td,
+.table th {
   border-color: rgba(255, 255, 255, 0.6) !important;
 }
 
-.btnDelete{
-  padding: 4px 25px;
+.btnDelete {
+  padding: 3px 25px;
   border-radius: 5px;
   border: none;
   background-color: rgb(221, 39, 39);
